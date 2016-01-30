@@ -1029,7 +1029,7 @@ declare module "evernote" {
              *     </li>
              * </ul>
              */
-            getFilteredSyncChunk(afterUSN: number, maxEntries: number, filter: SyncChunkFilter, cb: Callback<SyncState>): void;
+            getFilteredSyncChunk(afterUSN: number, maxEntries: number, filter: SyncChunkFilter, cb: Callback<SyncChunk>): void;
 
             /**
              * Asks the NoteStore to provide information about the status of a linked
